@@ -1,7 +1,7 @@
 import socket
 from time import sleep
 while True:
-	print("Choose port between 1024 and 65535")
+	print("Choose port between 1027 and 65535")
 	port=int(input())
 	if 65535>=port>=1024:
 		break
